@@ -119,13 +119,38 @@
 
     <!--作品1視窗-->
     <div class="modal fade" id="Modal_1" tabindex="-1" aria-labelledby="ModalLabel_1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content vh-100">
                 <div class="modal-header">
                     <h5 class="modal-title fw-bold" id="ModalLabel_1">台灣職籃App design</h5>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <ul class="nav nav-pills mb-3 gap-2" id="pills-1-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-dark border border-dark active" id="pills-1-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1-home" type="button" role="tab" aria-controls="pills-1-home" aria-selected="true">首頁</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-dark border border-dark" id="pills-1-games-tab" data-bs-toggle="pill" data-bs-target="#pills-1-games" type="button" role="tab" aria-controls="pills-1-games" aria-selected="false">比賽</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-dark border border-dark" id="pills-1-news-tab" data-bs-toggle="pill" data-bs-target="#pills-1-news" type="button" role="tab" aria-controls="pills-1-news" aria-selected="false">新聞</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-dark border border-dark" id="pills-1-standing-tab" data-bs-toggle="pill" data-bs-target="#pills-1-standing" type="button" role="tab" aria-controls="pills-1-standing" aria-selected="false">排名</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link btn btn-dark border border-dark" id="pills-1-more-tab" data-bs-toggle="pill" data-bs-target="#pills-1-more" type="button" role="tab" aria-controls="pills-1-more" aria-selected="false">更多功能</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-1-tabContent">
+                        <div class="tab-pane fade show active px-2" id="pills-1-home" role="tabpanel" aria-labelledby="pills-1-home-tab">
+                            <div></div>
+                        </div>
+                        <div class="tab-pane fade px-2" id="pills-1-games" role="tabpanel" aria-labelledby="pills-games-1-tab">222</div>
+                        <div class="tab-pane fade px-2" id="pills-1-news" role="tabpanel" aria-labelledby="pills-news-1-tab">333</div>
+                        <div class="tab-pane fade px-2" id="pills-1-standing" role="tabpanel" aria-labelledby="pills-1-standing-tab">444</div>
+                        <div class="tab-pane fade px-2" id="pills-1-more" role="tabpanel" aria-labelledby="pills-1-more-tab">555</div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <a href="https://www.figma.com/design/nkNNgBLaTXLASpb6w3R6a6/%E5%8F%B0%E7%81%A3%E7%B1%83%E7%90%83%E8%81%AF%E8%B3%BD-app%E8%A8%AD%E8%A8%88?node-id=0-1&t=gvKOlm671qD4HwH3-1" target="_blank" class="btn btn-dark">在Figma上看</a>
