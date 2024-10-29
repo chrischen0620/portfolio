@@ -1,6 +1,6 @@
 <svg width="473" height="932" viewBox="0 0 473 932" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_248_11252)">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="#111111"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="#111111"/>
 <mask id="path-2-inside-1_248_11252" fill="white">
 <path d="M40 350H433V398H40V350Z"/>
 </mask>
@@ -212,7 +212,7 @@
 <stop offset="1" stop-color="#B9985F" stop-opacity="0.2"/>
 </linearGradient>
 <clipPath id="clip0_248_11252">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="white"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="white"/>
 </clipPath>
 <clipPath id="clip1_248_11252">
 <rect width="393" height="112" fill="white" transform="translate(40 142)"/>

@@ -1,6 +1,6 @@
 <svg width="473" height="932" viewBox="0 0 473 932" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_248_11263)">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="#111111"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="#111111"/>
 <rect width="393" height="56" transform="translate(40 288)" fill="#1B1B1B"/>
 <rect x="48" y="294" width="69" height="44" rx="8" fill="#2C2C2E"/>
 <path d="M84.5 315C84.5 314.448 84.9477 314 85.5 314C86.0523 314 86.5 314.448 86.5 315V317C86.5 317.552 86.0523 318 85.5 318C84.9477 318 84.5 317.552 84.5 317V315Z" fill="white"/>
@@ -216,7 +216,7 @@
 <stop offset="1" stop-color="#B9985F" stop-opacity="0.2"/>
 </linearGradient>
 <clipPath id="clip0_248_11263">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="white"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="white"/>
 </clipPath>
 <clipPath id="clip1_248_11263">
 <rect width="393" height="56" fill="white" transform="translate(40 437)"/>

@@ -1,6 +1,6 @@
 <svg width="473" height="932" viewBox="0 0 473 932" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_248_11259)">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="#111111"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="#111111"/>
 <g clip-path="url(#clip1_248_11259)">
 <g clip-path="url(#clip2_248_11259)">
 <mask id="path-4-inside-1_248_11259" fill="white">
@@ -219,7 +219,7 @@
 <stop offset="1" stop-color="#B9985F" stop-opacity="0.2"/>
 </linearGradient>
 <clipPath id="clip0_248_11259">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="white"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="white"/>
 </clipPath>
 <clipPath id="clip1_248_11259">
 <rect x="56" y="214" width="361" height="316" rx="8" fill="white"/>

@@ -1,6 +1,6 @@
 <svg width="473" height="932" viewBox="0 0 473 932" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_248_11250)">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="#111111"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="#111111"/>
 <rect x="56" y="350" width="361" height="136" rx="8" fill="#1B1B1B"/>
 <circle cx="128" cy="398" r="24" fill="url(#pattern0_248_11250)"/>
 <circle cx="128" cy="398" r="23.5" stroke="#252525" stroke-opacity="0.25"/>
@@ -157,7 +157,7 @@
 <stop offset="1" stop-color="#B9985F" stop-opacity="0.2"/>
 </linearGradient>
 <clipPath id="clip0_248_11250">
-<rect x="40" y="40" width="393" height="852" rx="56" fill="white"/>
+<rect x="40" y="40" width="393" height="852" rx="44" fill="white"/>
 </clipPath>
 <clipPath id="clip1_248_11250">
 <rect width="160.5" height="40" fill="white" transform="translate(64 860)"/>
