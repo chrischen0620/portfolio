@@ -1,6 +1,5 @@
 .modal-dialog {
   position: relative;
-  width: 100%;
   max-width: calc(100% - 1rem);
   min-height: calc(100% - 1rem);
   margin: 0.5rem auto;
