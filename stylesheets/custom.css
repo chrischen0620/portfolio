@@ -1,12 +1,13 @@
 .modal-dialog {
+  position: relative;
   width: 100%;
-  max-width: calc(100% - 2rem);
-  margin: 1rem auto;
+  max-width: calc(100% - 1rem);
+  min-height: calc(100% - 1rem);
+  margin: 0.5rem auto;
 }
-@media (min-width: 992px) {
-  .modal-dialog {
-    width: auto;
-    max-width: 500px;
+@media (min-width: 768px) {
+  .modal-dialog.modal-lg {
+    max-width: 752px;
   }
 }
 @media (min-width: 992px) {
