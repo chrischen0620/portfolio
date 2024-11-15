@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+.modal-dialog {
+  width: 100%;
+  max-width: calc(100% - 2rem); // 留一些邊距
+  margin: 1rem auto;
+  
+  // md 斷點(768px)以上才使用固定寬度
+  @include media-breakpoint-up(lg) {
+    width: auto;
+    max-width: $modal-md; // Bootstrap 預設 500px
+  }
+  
+  // 保持其他斷點的寬度設定
+  &.modal-lg {
+    @include media-breakpoint-up(lg) {
+      max-width: $modal-lg;
+    }
+  }
+}
