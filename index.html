@@ -49,10 +49,10 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5 bg-white bg-opacity-25" style="backdrop-filter: blur(40px);">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5 bg-white bg-opacity-25 p-0" style="backdrop-filter: blur(40px);">
         <div class="container">
             <a class="navbar-brand" href="#">PORTFOLIO</a>
-            <button class="btn btn-dark border-0 my-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">關於我</button>
+            <button class="btn btn-dark border-0 my-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAboutMe" aria-controls="offcanvasAboutMe">關於我</button>
             <!--
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -72,14 +72,18 @@
         </div>
     </nav>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h2 id="offcanvasRightLabel" class="m-0">關於我</h2>
-            <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAboutMe" aria-labelledby="offcanvasAboutMeLabel">
+        <div class="offcanvas-header py-2">
+            <button type="button" class="btn btn-custom" data-bs-dismiss="offcanvas" aria-label="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"/>
+                </svg>
+            </button>
         </div>
         <div class="offcanvas-body">
+            <h5 class="mb-3 fs-4">關於我</h5>
             <img src="img/me.svg" alt="" class="rounded-4" style="width: 40%;">
-            <h5 class="mt-3">陳仟龍</h5>
+            <p class="mt-3 mb-0">陳仟龍</p>
             <p class="fs-6 text-black-50 my-0">大同大學媒體設計學系數位遊戲設計組 畢業(2022)</p>
         </div>
     </div>
