@@ -60,16 +60,24 @@
             background-color: #000;
             color: #fff;
         }
+
+        .nav-border {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, .5);
+        }
     </style>
 </head>
 
 <body>
     <nav class="nav fixed-top justify-content-center mt-2 rounded-pill container w-auto">
-        <div class="nav nav-pills border rounded-pill p-1" style="background-color: rgba(0, 0, 0, 0.15); backdrop-filter: blur(40px);">
+        <div class="nav nav-pills nav-border rounded-pill p-1" style="background-color: rgba(0, 0, 0, 0.15); backdrop-filter: blur(40px);">
             <img src="img/nav_brand.svg" alt="" class="ps-3">
             <div class="mx-2 my-2 border border-dark opacity-25 rounded-pill"></div>
             <a class="nav-link border-0 rounded-pill btn btn-custom-navbar shadow active" aria-current="page" href="#">我的作品</a>
-            <a class="nav-link border-0 rounded-pill btn btn-custom-navbar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAboutMe" aria-controls="offcanvasAboutMe">關於我</a>
+            <a class="nav-link border-0 rounded-pill btn btn-custom-navbar px-4 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAboutMe" aria-controls="offcanvasAboutMe">關於我</a>
+            <div class="mx-2 my-2 border border-dark opacity-25 rounded-pill"></div>
+            <a href="https://github.com/chrischen0620/portfolio.git" target="_blank" class="nav-link"><img src="img/Octicons-mark-github.svg" alt="" style="height: 24px;"></a>
         </div>
     </nav>
 
