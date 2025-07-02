@@ -62,19 +62,19 @@
         }
 
         .nav-border {
-            border-width: 1px;
+            border-width: 2px;
             border-style: solid;
-            border-color: rgba(255, 255, 255, .5);
+            border-color: rgba(255, 255, 255, .2);
         }
     </style>
 </head>
 
 <body>
-    <nav class="nav fixed-top justify-content-center mt-2 rounded-pill container w-auto">
-        <div class="nav nav-pills nav-border rounded-pill p-1 flex-nowrap overflow-auto" style="background-color: rgba(0, 0, 0, 0.15); backdrop-filter: blur(40px);">
+    <nav class="nav fixed-top justify-content-center my-2 p-0 rounded-pill container w-auto">
+        <div class="nav nav-pills nav-border rounded-pill p-1 flex-nowrap overflow-auto" style="background: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(200, 200, 200, 0.5));backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);"> 
             <img src="img/nav_brand.svg" alt="" class="ps-3">
             <div class="mx-2 my-2 border border-dark opacity-25 rounded-pill"></div>
-            <a class="nav-link border-0 rounded-pill btn btn-custom-navbar text-nowrap shadow active" href="#">我的作品</a>
+            <a class="nav-link border-0 rounded-pill btn btn-custom-navbar text-nowrap active" href="#">我的作品</a>
             <a class="nav-link border-0 rounded-pill btn btn-custom-navbar text-nowrap px-md-4 " data-bs-toggle="offcanvas" data-bs-target="#offcanvasAboutMe" aria-controls="offcanvasAboutMe">關於我</a>
             <div class="mx-2 my-2 border border-dark opacity-25 rounded-pill"></div>
             <a href="https://github.com/chrischen0620/portfolio.git" target="_blank" class="nav-link pe-3 ps-1"><img src="img/Octicons-mark-github.svg" alt="" style="height: 24px;"></a>
@@ -116,7 +116,7 @@
     <div class="d-block" style="height: 5rem;"></div>
     <div class="d-none d-xxl-block" style="height: 2.5rem;"></div>
 
-    <div id="portfolio" class="container mb-5" data-aos="fade-up">
+    <div id="portfolio" class="container px-sm-5 pb-5" data-aos="fade-up">
         <h2 class="fw-bold fs-1 text-center my-3 my-xxl-5">我的作品</h4>
             <div class="row row-cols-xxl-4 row-cols-lg-2 row-cols-1 g-3 g-md-4">
                 <!--作品1卡片-->
