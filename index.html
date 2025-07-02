@@ -66,12 +66,20 @@
             border-style: solid;
             border-color: rgba(255, 255, 255, .2);
         }
+
+        .bg-gray-gradient {
+            background: linear-gradient(145deg, rgba(240, 240, 240, 0.5), rgba(200, 200, 200, 0.5));
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
 <body>
     <nav class="nav fixed-top justify-content-center my-2 p-0 rounded-pill container w-auto">
-        <div class="nav nav-pills nav-border rounded-pill p-1 flex-nowrap overflow-auto" style="background: linear-gradient(to right, rgba(240, 240, 240, 0.5), rgba(200, 200, 200, 0.5));backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);"> 
+        <div class="nav nav-pills rounded-pill p-1 flex-nowrap overflow-auto bg-gray-gradient"> 
             <img src="img/nav_brand.svg" alt="" class="ps-3">
             <div class="mx-2 my-2 border border-dark opacity-25 rounded-pill"></div>
             <a class="nav-link border-0 rounded-pill btn btn-custom-navbar text-nowrap active" href="#">我的作品</a>
@@ -82,8 +90,8 @@
     </nav>
 
     <!--側邊欄＿關於我-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAboutMe" aria-labelledby="offcanvasAboutMeLabel">
-        <div class="offcanvas-header py-2">
+    <div class="offcanvas offcanvas-end bg-gray-gradient pt-5" tabindex="-1" id="offcanvasAboutMe" aria-labelledby="offcanvasAboutMeLabel">
+        <div class="offcanvas-header pt-3 pb-2">
             <button type="button" class="btn btn-custom d-flex align-items-center" data-bs-dismiss="offcanvas" aria-label="back">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"></path>
@@ -121,7 +129,7 @@
             <div class="row row-cols-xxl-4 row-cols-lg-2 row-cols-1 g-3 g-md-4">
                 <!--作品1卡片-->
                 <div class="col">
-                    <div class="card h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
                         <img src="img/1_cover.svg" class="card-img-top rounded-top-4" alt="project1">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -162,7 +170,7 @@
                 </div>
                 <!--作品2卡片-->
                 <div class="col">
-                    <div class="card h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
                         <img src="img/2_cover.svg" class="card-img-top rounded-top-4" alt="project2">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -203,7 +211,7 @@
                 </div>
                 <!--作品3卡片-->
                 <div class="col">
-                    <div class="card h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
                         <img src="img/3_cover.svg" class="card-img-top rounded-top-4" alt="project3">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -244,7 +252,7 @@
                 </div>
                 <!--作品4卡片-->
                 <div class="col">
-                    <div class="card h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
                         <img src="img/0_cover.svg" class="card-img-top rounded-top-4" alt="project4">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -289,13 +297,13 @@
     <!--作品1視窗-->
     <div class="modal fade" id="Modal_1" tabindex="-1" aria-labelledby="ModalLabel_1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-gray-gradient">
                 <div class="modal-header border-0 pb-0 me-2">
                     <h5 class="modal-title fw-bold fs-4" id="ModalLabel_1">台灣職籃App design</h5>
                     <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body vh-100 p-0">
-                    <ul class="nav nav-pills px-3 py-2 sticky-top bg-white border-bottom flex-nowrap overflow-auto"
+                    <ul class="nav nav-pills px-3 py-2 sticky-top flex-nowrap overflow-auto"
                         id="pills-1-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link btn btn-custom text-nowrap active me-2"
@@ -774,13 +782,13 @@
     <!--作品2視窗-->
     <div class="modal fade" id="Modal_2" tabindex="-1" aria-labelledby="ModalLabel_2" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-gray-gradient">
                 <div class="modal-header border-0 pb-0 me-2">
                     <h5 class="modal-title fw-bold fs-4" id="ModalLabel_2">統一發票兌獎App redesign</h5>
                     <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body vh-100 p-0">
-                    <ul class="nav nav-pills px-3 py-2 sticky-top bg-white border-bottom flex-nowrap overflow-auto"
+                    <ul class="nav nav-pills px-3 py-2 sticky-top border-bottom flex-nowrap overflow-auto"
                         id="pills-2-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link btn btn-custom text-nowrap me-2 active"
@@ -1126,13 +1134,13 @@
     <!--作品3視窗-->
     <div class="modal fade" id="Modal_3" tabindex="-1" aria-labelledby="ModalLabel_3" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-gray-gradient">
                 <div class="modal-header pb-0 border-0 me-2">
                     <h5 class="modal-title fw-bold fs-4" id="ModalLabel_3">台灣壽司郎App redesign</h5>
                     <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body vh-100 p-0">
-                    <ul class="nav nav-pills px-3 py-2 sticky-top bg-white border-bottom flex-nowrap overflow-auto"
+                    <ul class="nav nav-pills px-3 py-2 sticky-top border-bottom flex-nowrap overflow-auto"
                         id="pills-3-tab" role="tablist" style="overflow-y: auto; overflow-x: hidden;">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link btn btn-custom active text-nowrap me-2"
@@ -1479,13 +1487,13 @@
     <!--作品4視窗-->
     <div class="modal fade" id="Modal_4" tabindex="-1" aria-labelledby="ModalLabel_4" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content">
+            <div class="modal-content bg-gray-gradient">
                 <div class="modal-header pb-0 border-0 me-2">
                     <h5 class="modal-title fw-bold fs-4" id="ModalLabel_4">其他作品</h5>
                     <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body vh-100 p-0">
-                    <ul class="nav nav-pills px-3 py-2 sticky-top bg-white border-bottom flex-nowrap overflow-auto"
+                    <ul class="nav nav-pills px-3 py-2 sticky-top border-bottom flex-nowrap overflow-auto"
                         id="pills-4-tab" role="tablist" style="overflow-y: auto; overflow-x: hidden;">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link btn btn-custom active text-nowrap me-2" id="pills-4_1-tab"
