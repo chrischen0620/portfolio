@@ -74,6 +74,22 @@
             border: 2px solid rgba(255, 255, 255, 0.2);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
+
+        .bg-white-gradient {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .bg-dark-gradient {
+            background: linear-gradient(145deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
@@ -129,7 +145,7 @@
             <div class="row row-cols-xxl-4 row-cols-lg-2 row-cols-1 g-3 g-md-4">
                 <!--作品1卡片-->
                 <div class="col">
-                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 shadow-sm">
                         <img src="img/1_cover.svg" class="card-img-top rounded-top-4" alt="project1">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -170,7 +186,7 @@
                 </div>
                 <!--作品2卡片-->
                 <div class="col">
-                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 shadow-sm">
                         <img src="img/2_cover.svg" class="card-img-top rounded-top-4" alt="project2">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -211,7 +227,7 @@
                 </div>
                 <!--作品3卡片-->
                 <div class="col">
-                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 shadow-sm">
                         <img src="img/3_cover.svg" class="card-img-top rounded-top-4" alt="project3">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -252,7 +268,7 @@
                 </div>
                 <!--作品4卡片-->
                 <div class="col">
-                    <div class="card bg-gray-gradient h-100 rounded-4 border-0 shadow-sm">
+                    <div class="card bg-gray-gradient h-100 rounded-4 shadow-sm">
                         <img src="img/0_cover.svg" class="card-img-top rounded-top-4" alt="project4">
                         <div class="card-body d-flex px-3 flex-column justify-content-between gap-3">
                             <div>
@@ -297,13 +313,13 @@
     <!--作品1視窗-->
     <div class="modal fade" id="Modal_1" tabindex="-1" aria-labelledby="ModalLabel_1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content bg-gray-gradient">
+            <div class="modal-content bg-white-gradient">
                 <div class="modal-header d-flex flex-column border-0 pb-0">
                     <div class="d-flex justify-content-between align-items-center w-100">
                         <h5 class="modal-title fw-bold fs-4" id="ModalLabel_1">台灣職籃App design</h5>
-                        <button type="button" class="btn-close rounded-circle p-2 me-1" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close rounded-circle p-2" style="margin-right: 0; background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="d-flex justify-content-start w-100 my-2">
+                    <div class="d-flex justify-content-start w-100 my-3">
                         <ul class="nav nav-pills sticky-top flex-nowrap overflow-auto"
                         id="pills-1-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -351,12 +367,11 @@
                     </div>
                     
                 </div>
-                
-                <div class="modal-body vh-100 p-0">                   
+                <div class="modal-body bg-white-gradient rounded-4 mx-3 vh-100">                   
                     <div class="tab-content" id="pills-1-tabContent">
                         <div class="tab-pane fade show active" id="pills-1-Introduction" role="tabpanel"
                             aria-labelledby="pills-1-Introduction-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto d-flex align-items-center">
                                     <div id="carouselIntroduction_1Indicators" class="carousel slide"
                                         data-bs-ride="true">
@@ -400,7 +415,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-1-home" role="tabpanel" aria-labelledby="pills-1-home-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <img src="img/1/Home.svg" alt="" class="col-7 col-sm-5 m-auto">
                                 <div class="col-12 col-sm-7 pt-3 pt-sm-0 m-auto d-flex align-items-center">
                                     <div class="d-flex flex-column">
@@ -412,7 +427,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-1-games" role="tabpanel"
                             aria-labelledby="pills-games-1-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselGamesIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -473,7 +488,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-1-news" role="tabpanel" aria-labelledby="pills-news-1-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselNewsIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -506,7 +521,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-1-standing" role="tabpanel"
                             aria-labelledby="pills-1-standing-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselStandingIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -548,7 +563,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-1-more" role="tabpanel" aria-labelledby="pills-1-more-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselMoreIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -690,7 +705,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-1-other" role="tabpanel"
                             aria-labelledby="pills-other-1-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselOtherIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -788,13 +803,13 @@
     <!--作品2視窗-->
     <div class="modal fade" id="Modal_2" tabindex="-1" aria-labelledby="ModalLabel_2" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content bg-gray-gradient">
-                <div class="modal-header d-flex flex-column border-0 pb-0 me-2">
+            <div class="modal-content bg-white-gradient">
+                <div class="modal-header d-flex flex-column border-0 pb-0">
                     <div class="d-flex justify-content-between align-items-center w-100">
                         <h5 class="modal-title fw-bold fs-4" id="ModalLabel_2">統一發票兌獎App redesign</h5>
-                        <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close rounded-circle p-2" style="margin-right: 0; background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="d-flex justify-content-start w-100 my-2">
+                    <div class="d-flex justify-content-start w-100 my-3">
                         <ul class="nav nav-pills sticky-top flex-nowrap overflow-auto"
                         id="pills-2-tab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -834,12 +849,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="modal-body vh-100 p-0">
+                <div class="modal-body bg-white-gradient rounded-4 mx-3 vh-100">
                     
                     <div class="tab-content" id="pills-2-tabContent">
                         <div class="tab-pane fade show active" id="pills-2-Introduction" role="tabpanel"
                             aria-labelledby="pills-2-Introduction-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <img src="img/2/tab_bar.svg" alt="底部導航欄" class="col-7 col-sm-5 m-auto">
                                 <div class="col-12 col-sm-7 pt-3 pt-sm-0 m-auto d-flex align-items-center">
                                     <div class="d-flex flex-column">
@@ -878,7 +893,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-2-home" role="tabpanel" aria-labelledby="pills-2-home-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselHomeIndicators_2" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -911,7 +926,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-2-receipt" role="tabpanel"
                             aria-labelledby="pills-2-receipt-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselReceiptIndicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -948,7 +963,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-2-prize" role="tabpanel"
                             aria-labelledby="pills-2-prize-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel3Indicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -980,7 +995,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-2-4" role="tabpanel" aria-labelledby="pills-2-4-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel4Indicators" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1012,7 +1027,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-2-more" role="tabpanel" aria-labelledby="pills-2-more-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_moreIndicators_2" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1062,7 +1077,7 @@
                             </div>
                         </div>
                         <!--<div class="tab-pane fade" id="pills-2-icon" role="tabpanel" aria-labelledby="pills-2-icon-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="row row-cols-3 row-cols-md-6 mx-3">
                                     <div class="col d-flex flex-column align-items-center">
                                         <img src="img/2/icon/首頁.svg" class="img-fluid" alt="" style="width: 50%;">
@@ -1145,13 +1160,13 @@
     <!--作品3視窗-->
     <div class="modal fade" id="Modal_3" tabindex="-1" aria-labelledby="ModalLabel_3" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content bg-gray-gradient">
-                <div class="modal-header d-flex flex-column pb-0 border-0 me-2">
+            <div class="modal-content bg-white-gradient">
+                <div class="modal-header d-flex flex-column pb-0 border-0">
                     <div class="d-flex justify-content-between align-items-center w-100">
                         <h5 class="modal-title fw-bold fs-4" id="ModalLabel_3">台灣壽司郎App redesign</h5>
-                        <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close rounded-circle p-2" style="margin-right: 0; background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="d-flex justify-content-start w-100 my-2">
+                    <div class="d-flex justify-content-start w-100 my-3">
                         <ul class="nav nav-pills sticky-top flex-nowrap overflow-auto"
                         id="pills-3-tab" role="tablist" style="overflow-y: auto; overflow-x: hidden;">
                             <li class="nav-item" role="presentation">
@@ -1193,12 +1208,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="modal-body vh-100 p-0">
+                <div class="modal-body bg-white-gradient rounded-4 mx-3 vh-100">
                     
                     <div class="tab-content" id="pills-3-tabContent">
                         <div class="tab-pane fade show active" id="pills-3-Introduction" role="tabpanel"
                             aria-labelledby="pills-3-Introduction-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carouselIntroductionIndicators_3" class="carousel slide"
                                         data-bs-ride="true">
@@ -1241,7 +1256,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-3-home" role="tabpanel" aria-labelledby="pills-3-home-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_homeIndicators_3" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1274,7 +1289,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-3-point" role="tabpanel"
                             aria-labelledby="pills-3-point-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_pointIndicators_3" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1307,7 +1322,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-3-reserve" role="tabpanel"
                             aria-labelledby="pills-3-reserve-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_reserveIndicators_3" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1352,7 +1367,7 @@
                         </div>
                         <div class="tab-pane fade" id="pills-3-coupon" role="tabpanel"
                             aria-labelledby="pills-3-coupon-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_couponIndicators_3" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1388,7 +1403,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-3-more" role="tabpanel" aria-labelledby="pills-3-more-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel_moreIndicators_3" class="carousel slide" data-bs-ride="false">
                                         <div class="carousel-inner">
@@ -1420,7 +1435,7 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-3-icon" role="tabpanel" aria-labelledby="pills-3-icon-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="row row-cols-3 row-cols-md-6">
                                     <div class="col d-flex flex-column align-items-center">
                                         <img src="img/3/icon/首頁.svg" class="img-fluid" alt="" style="width: 50%;">
@@ -1503,13 +1518,13 @@
     <!--作品4視窗-->
     <div class="modal fade" id="Modal_4" tabindex="-1" aria-labelledby="ModalLabel_4" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-            <div class="modal-content bg-gray-gradient">
-                <div class="modal-header d-flex flex-column pb-0 border-0 me-2">
+            <div class="modal-content bg-white-gradient">
+                <div class="modal-header d-flex flex-column pb-0 border-0">
                     <div class="d-flex justify-content-between align-items-center w-100">
                         <h5 class="modal-title fw-bold fs-4" id="ModalLabel_4">其他作品</h5>
-                        <button type="button" class="btn-close rounded-circle p-2" style="background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close rounded-circle p-2" style="margin-right: 0; background-color: rgba(0, 0, 0, 0.15);" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="d-flex justify-content-start w-100 my-2">
+                    <div class="d-flex justify-content-start w-100 my-3">
                         <ul class="nav nav-pills sticky-top flex-nowrap overflow-auto"
                         id="pills-4-tab" role="tablist" style="overflow-y: auto; overflow-x: hidden;">
                             <li class="nav-item" role="presentation">
@@ -1525,12 +1540,11 @@
                         </ul>
                     </div>
                 </div>
-                <div class="modal-body vh-100 p-0">
-                    
+                <div class="modal-body bg-white-gradient rounded-4 mx-3 vh-100">
                     <div class="tab-content" id="pills-4-tabContent">
                         <div class="tab-pane fade show active" id="pills-4_1" role="tabpanel"
                             aria-labelledby="pills-4_1-tab">
-                            <div class="row mx-3 py-3">
+                            <div class="row">
                                 <div class="col-7 col-sm-5 m-auto">
                                     <div id="carousel4_1Indicators_3" class="carousel slide" data-bs-ride="true">
                                         <div class="carousel-inner">
